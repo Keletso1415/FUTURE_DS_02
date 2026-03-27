@@ -1,0 +1,107 @@
+# FUTURE_DS_02
+📊 Customer Retention & Churn Analysis
+
+📌 Project Overview
+This project focuses on analyzing customer churn behavior to identify why customers leave a subscription-based service and how retention can be improved.
+
+Customer retention is a critical metric for subscription businesses, as reducing churn directly impacts revenue, growth, and long-term sustainability.
+
+The goal of this project is to generate data-driven insights and actionable recommendations that can support business decision-making.
+
+🎯 Objectives
+Analyze customer churn patterns
+Identify high-risk customer segments
+Understand customer lifetime behavior
+Determine key drivers of churn
+Provide actionable business recommendations to improve retention
+🛠️ Tools & Technologies
+R → Data cleaning, transformation, and statistical analysis
+Microsoft Excel → Dashboard creation and data visualization
+
+📁 Dataset
+Telco Customer Churn Dataset
+Contains 7,000+ customer records with:
+Demographics
+Subscription details
+Service usage
+Billing information
+Churn status
+
+🔍 Data Preparation (R)
+Key steps performed in R:
+
+Converted TotalCharges to numeric
+Handled missing values (removed ~0.15% of data)
+Converted Churn into a binary variable (0 = retained, 1 = churned)
+Performed exploratory data analysis (EDA)
+Built a logistic regression model to identify churn drivers
+
+📊 Key Analysis Performed
+1. Churn Rate Analysis
+Calculated overall churn rate
+Identified baseline business performance
+2. Customer Segmentation
+Churn by:
+Contract type
+Internet service
+Monthly charges
+Tenure
+3. Customer Lifetime Analysis
+Examined how long customers stay before churning
+Identified high-risk early-stage customers
+4. Statistical Modeling
+Applied logistic regression to determine key drivers of churn
+Interpreted results using odds ratios
+
+📈 Dashboard (Excel)
+An interactive dashboard was created to present insights clearly and support decision-making.
+
+Dashboard Features:
+KPI Metrics:
+Total Customers
+Total Revenue
+Average Monthly Charges
+Churn Rate
+Visualizations:
+Churn by Contract Type
+Churn by Internet Service
+Churn vs Tenure
+Customer segmentation insights
+
+🔑 Key Insights
+📉 Churn Rate: ~26.5% (≈ 1 in 4 customers leave)
+📄 Contract Type: Month-to-month contracts have the highest churn
+⏳ Tenure: Most churn occurs within the first 12 months
+🌐 Internet Service: Fiber optic users show higher churn rates
+💰 Pricing: Higher monthly charges are associated with increased churn
+
+💡 Business Recommendations
+Based on the analysis:
+
+Encourage customers to move to long-term contracts
+Improve onboarding experience for new customers
+Introduce loyalty programs and retention incentives
+Review pricing strategies for high-cost plans
+Provide proactive support for high-risk customers
+
+🚀 Key Skills Demonstrated
+Data Cleaning & Transformation
+Exploratory Data Analysis (EDA)
+Statistical Modeling (Logistic Regression)
+Customer Segmentation
+Data Visualization & Dashboarding
+Business Insight Generation
+
+📢 Conclusion
+This project demonstrates how data analytics can be used to:
+
+Understand customer behavior
+Identify churn drivers
+Support strategic business decisions
+
+By combining statistical analysis (R) with business storytelling (Excel), this project delivers insights that are both technically sound and practically valuable.
+
+🔗 Connect With Me
+
+I’m actively building projects in data analytics and data science.
+Feel free to connect or provide feedback!
